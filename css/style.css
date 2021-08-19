@@ -109,6 +109,7 @@ hr {
 }
 .navbar-custom a {
 	color: #f4f5f6;
+	padding-left: 0px;
 }
 .navbar-custom .nav li a {
 	text-transform: uppercase;
@@ -172,13 +173,22 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
+	color: #ffffff;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}
+.intro h1{
+    background-color: #7bc3d1;
+}
+.intro p{
+    background-color: #7bc3d1;
+}
+.intro-text a{
+    background-color: #7bc3d1;
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
@@ -198,6 +208,7 @@ hr {
 	display: inline-block;
 }
 #about p {
+	font-size: 16px;
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
@@ -314,6 +325,8 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
+	border: 5px solid #7bc3d1;
+	background-color: #7bc3d1;
 	margin: 15px 0;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
@@ -345,7 +358,23 @@ ol.type li a:hover {
 	opacity: 0;
 	transition: all 0.5s;
 }
-.hover-bg .hover-text>h4 {
+.hover-bg .hover-text>h4{
+	opacity: 0;
+	color: #fff;
+	font-weight: 400;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+
+.portfolio-item>h4{
+	text-align: center;
+	background-color: #7bc3d1;
+	color: #fff;
+	font-weight: 400;
+}
+
+.hover-text>a{
 	opacity: 0;
 	color: #fff;
 	font-weight: 400;
@@ -465,7 +494,7 @@ ol.type li a:hover {
 	border: 1px solid #eee;
 	border-radius: 100%;
 	text-align: center;
-	background: #fff;
+	background: #7bc3d1;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
@@ -638,7 +667,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 100%;
 	padding: 0;
 	text-align: left;
-	color: #fff;
 }
 .intro H1 {
 	font-size: 60px;
@@ -674,7 +702,7 @@ header .intro-text {
 .timeline>li .timeline-panel {
 	float: left;
 	width: 41%;
-	padding: 0 20px 20px 30px;
+	padding: 0 20px 20px 20px;
 	text-align: right;
 }
 .timeline>li .timeline-image {

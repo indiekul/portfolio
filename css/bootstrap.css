@@ -1415,6 +1415,9 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
+li {
+  padding-bottom: 5px;
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
